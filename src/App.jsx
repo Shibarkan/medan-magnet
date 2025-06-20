@@ -17,10 +17,10 @@ function App() {
       setCartItems(newCart);
     }
   };
-
+  
   return (
     <div className="min-h-screen bg-gray-50 p-6 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-bold text-center mb-6">Warung Medan</h1>
+      <h1 className="text-2xl font-bold text-center mb-6">Warung Medan Magnet</h1>
 
       <ProductList onAddToCart={handleAddToCart} />
       <Cart cartItems={cartItems} onRemove={handleRemoveFromCart} />
